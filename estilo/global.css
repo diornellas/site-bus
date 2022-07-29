@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* CONFIGURAÇÃO GLOBAL */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+/* TIPOGRAFIA */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap'); /* (Fonte Roboto)*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500;900&display=swap');/* Fonte Montserrat */
+
+#contato {
+	font-size: 1.1em;
+}
+
+p, li {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 27px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 19px;
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}

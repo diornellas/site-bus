@@ -1,13 +1,5 @@
 @charset "UTF-8";
 
-/* CONFIGURAÇÃO GLOBAL */
-
-* {
-	margin: 0px;
-	padding: 0px;
-	font-size: 100%;
-}
-
 /* CABEÇALHO */
 
 header#cabeca {
@@ -41,7 +33,7 @@ header > nav a:hover {
 }
 
 /* SEÇÃO DE COMPRAS */
-#comprar {
+#loja {
 	height: 435px;
 	background-color: blanchedalmond;
 	display: flex;
@@ -87,17 +79,33 @@ header > nav a:hover {
 
 /* AREA DE PERGUNTAS */
 #perguntas {
+	width: 80%;
+	height:100%;
 	background-color: navajowhite;
+	margin: auto;
 	margin-bottom: 20px;
+	padding: 40px;
 	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.perg {
+	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
-	align-items: center;
+	flex-direction: row;
 }
 
 .pgt {
+	width: 30%;
+	height: 70px;
 	background-color: darkgrey;
 	text-align: center;
-	border-radius: 30px;
+	line-height: 66px;
+	border-radius: 38px;
+	list-style: none;
+	margin-top: 20px;
 }
 
 /* RODAPÉ */
